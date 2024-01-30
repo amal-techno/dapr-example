@@ -1,0 +1,6 @@
+version: 1
+apps:
+  - appDirPath: ./apps/session
+    appID: session
+    appPort: 3000
+    command: ["pnpm", "start"]
